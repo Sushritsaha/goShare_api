@@ -5,10 +5,20 @@ const PORT = process.env.PORT || 3000;
 const path = require('path');
 const cors = require('cors');
 // Cors 
-const corsOptions = {
-  "origin": "*"
-  // ['http://localhost:3000', 'http://localhost:5000', 'http://localhost:3300']
-}
+
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
+
+//const corsOptions = {
+//   "origin": "*",
+//   "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+//   "preflightContinue": false,
+//   "optionsSuccessStatus": 204
+//   // ['http://localhost:3000', 'http://localhost:5000', 'http://localhost:3300']
+// }
 
 // Default configuration looks like
 // {
