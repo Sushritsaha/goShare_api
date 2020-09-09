@@ -5,5 +5,5 @@ We will build rest api for a simple file sharing app.
 
 
 ## Installation 
-After download or clone run `npm install` OR `yarn install` to install all the dependancies.
+After download or clone run `npm install` to install all the dependancies.
 
