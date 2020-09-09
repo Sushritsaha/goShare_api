@@ -1,4 +1,4 @@
-# goShare file sharing app apis
+# goShare file sharing api
 
 Rest api using Node, Express, Mongo.
 We will build rest api for a simple file sharing app. 
